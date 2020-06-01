@@ -1,0 +1,163 @@
+/*--------head of the page--------*/
+#headbg{
+  background-color: #6699ff;
+  text-align: left;
+}
+#logo{
+  background-color: #e6f7ff;
+  border-radius: 10%;
+  width: 100px;
+  align-content: center;
+  margin: 10px;
+}
+#logo:hover{
+  background-color: #7ec2e2;
+}
+#brand{
+  margin-top: 66px;
+  position: absolute;
+  left: 105px;
+  font-size: 20px;
+  font-family: cursive;
+  font-style: italic;
+}
+.logoImg{
+  width: 100px;
+  padding: 10px;
+  padding-top: 20px;
+}
+#logout{
+  margin-top: 60px;
+  position: absolute;
+  font-family: Bangers;
+}
+/*-------------- copyright ----------------------------------*/
+.copyright{
+  display: grid;
+  padding: 15px;
+  background-color: #6699ff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/*---------------mobile friendly------*/
+@media (min-width: 450px){
+  #logout{
+    right: 60px;
+  }
+  #brand::before{
+    content: "M&YBooks";
+  }
+
+  #signtoday::before{
+    content: "SIGN UP TODAY!";
+  }
+  #logintitle::before{
+    content: "LOG IN NOW!";
+  }
+  #titelWelcome::before{
+    content: "Wellcome to M&YBooks";
+  }
+
+}
+@media (max-width: 449px){
+  #logout{
+    right: 15px;
+  }
+  #brand::before{
+    content: "";
+  }
+  #signtoday::before{
+    content: "SIGN UP!";
+  }
+  #logintitle::before{
+    content: "LOG IN!";
+  }
+  #titelWelcome::before{
+    content: "M&YBooks";
+  }
+}
+
+/*-----------------------------register page---------------------------------*/
+#formMain{
+  padding-top: 6%;
+  display: table;
+  margin: auto auto;
+
+}
+#signtoday{
+  font-family: Bangers;
+  text-align: center;
+}
+#signupButton{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  font-family: Bangers;
+}
+#alertPass{
+  color: red;
+}
+
+/*------------ login ----------------------*/
+#loginform{
+  padding-top: 6%;
+  display: table;
+  margin: auto auto;
+
+}
+#logintitle{
+  font-family: Bangers;
+  text-align: center;
+}
+#loginBottun{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  font-family: Bangers;
+}
+#alertwrongPass{
+  color: red;
+}
+#bottuns{
+  padding-top: 6%;
+  display: table;
+  margin: auto auto;
+  font-family: Bangers;
+}
+/*-------------------------------------HOME PAGE--------------------*/
+.homeBody{
+   background-image: url('/static/img/homepageBG.jpg');
+}
+.maindiv{
+  margin-top: 6%;
+  display: table;
+  margin: auto;
+  width: 90%;
+}
+
+.titWelcome{
+  color: white;
+  background-color: grey;
+  opacity: 0.7;
+  align-content: center;
+  text-align: center;
+  margin-top: 65px;
+  font-size: 40px;
+  font-family: Bangers;
+  position: relative;
+  width: 100%
+}
+
+#tosignup, #tologin{
+  margin: 10px;
+}
+/*------------------search page----------------------*/

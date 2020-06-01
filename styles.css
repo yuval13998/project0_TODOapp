@@ -3,9 +3,11 @@
 }
 
 html, body {
-  background-color: #eee;
-  margin: 0;
-  padding: 0;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center;
 }
 
 ul {
