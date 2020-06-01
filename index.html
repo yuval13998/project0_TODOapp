@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <div class="">
+      <h1 align="center" class="title">הזמנות בית קפה</h1>
+      <div class="flow-right controls">
+        <span>הזמנות: <span id="item-count">0</span></span>
+        <span>לא מוכן: <span id="unchecked-count">0</span></span>
+      </div>
+      <input class="center" type="text" name="text_todo" id="text_todo" value="">
+      <br>
+      <button class="button center" onClick="newTodo()">הזמנה חדשה</button>
+      <ul id="todo-list" class="todo-list"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
